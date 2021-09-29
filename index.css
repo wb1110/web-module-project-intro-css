@@ -75,6 +75,8 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     /* Top Section Styles */
     .top{
         position: relative;
+        width: 90%;
+        margin: auto;
     }
     .left, .right{
         display: inline-block;
@@ -92,4 +94,71 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         margin-left: 5%;
         position: absolute;
         top: 45%;
+        text-align: center;
+    }
+
+
+    /* Main Body */
+    .mainbody{
+        background-color: #DDB9A3;
+        width: 90%;
+        position: relative;
+        margin: auto;
+        text-align: center;
+        color:white;
+        display: block;
+    }
+
+    .topP{
+        margin-bottom: 5%;
+    }
+
+
+    /* Fire Camper */
+    .firecamper{
+        display: block;
+        margin: auto;
+    }
+
+    .firesection{
+        text-align: center;
+        margin: auto;
+        padding-bottom: 5%;
+    }
+
+    .firesection p{
+        width: 17%;
+        margin: auto;
+    }
+    .firesection img{
+        width: 10%;
+    }
+
+   
+
+    .campersection{
+        text-align: center;
+        margin: auto;
+    }
+
+    .campersection p{
+        width: 17%;
+        margin: auto;
+    }
+    .campersection img{
+        width: 10%;
+    }
+
+
+
+    span{
+        font-weight: bold;
+    }
+
+    /* background img */
+
+
+    /* Footer Styles */
+    footer{
+        background-color:#F9E7DC;
     }
