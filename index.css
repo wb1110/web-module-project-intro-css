@@ -22,7 +22,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
     }
 
     /* General Styles */
@@ -50,6 +49,11 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     }
     h2{
         font-size: 3rem;
+    }
+
+    #lowerh2{
+        width: 60%;
+        margin-left: 20%;
     }
 
     /* Header Section Styles */
@@ -168,7 +172,9 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     }
 
     /* background img */
+    footer img{
 
+    }
 
     /* Footer Styles */
     footer{
